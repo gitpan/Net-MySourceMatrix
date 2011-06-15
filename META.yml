@@ -1,5 +1,5 @@
 ---
-abstract: 'A Perl wrapper to the MySource Matrix(TM)/Squiz Matrix(TM) SOAP API.'
+abstract: "A Perl wrapper to the MySource Matrix(TM)/Squiz Matrix(TM) SOAP API.\r"
 author:
   - jeffery@astraaustralis.com.au
 build_requires:
@@ -24,4 +24,4 @@ requires:
   perl: 5.8.5
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.03
+version: 0.04
