@@ -5,7 +5,7 @@ use 5.008005;
 use SOAP::Lite;
 use MIME::Base64 qw(encode_base64);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new	{
 		
@@ -906,7 +906,7 @@ Net::MySourceMatrix - A Perl wrapper to the MySource Matrix(TM)/Squiz Matrix(TM)
 
 =head1 VERSION
 
-This documentation refers to version 0.02.
+This documentation refers to version 0.03.
 
 =head1 SYNOPSIS
 
@@ -965,16 +965,6 @@ L<CreateAsset|http://http://manuals.matrix.squizsuite.net/web-services/chapters/
 			FileContentBase64	=> $filecontents)
 		);
 	
-L<Creating a client|http://www.MySourceMatrix.com/api/clients/#creating_a_client>
-
-	my $client = $cm->account_clients((
-		'CompanyName'  => "ACME Limited",
-		'ContactName'  => "John Doe",
-		'EmailAddress' => "john\@example.com",
-		'Country'      => "Australia",
-		'TimeZone'     => "(GMT+10:00) Canberra, Melbourne, Sydney"
-	));
-
 =head2 clone_asset
 
 L<CloneAsset|http://manuals.matrix.squizsuite.net/web-services/chapters/soap-api-asset-service/#cloneasset>
