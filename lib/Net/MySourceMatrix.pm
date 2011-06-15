@@ -5,7 +5,7 @@ use 5.008005;
 use SOAP::Lite;
 use MIME::Base64 qw(encode_base64);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new	{
 		
@@ -906,7 +906,7 @@ Net::MySourceMatrix - A Perl wrapper to the MySource Matrix(TM)/Squiz Matrix(TM)
 
 =head1 VERSION
 
-This documentation refers to version 0.01.
+This documentation refers to version 0.02.
 
 =head1 SYNOPSIS
 
